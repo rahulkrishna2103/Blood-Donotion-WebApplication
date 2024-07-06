@@ -1,0 +1,271 @@
+/* Reset and General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #c62828;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    color: #c62828;
+    margin-bottom: 20px;
+}
+
+.main-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-content ul li {
+    margin-bottom: 10px;
+}
+
+.main-content ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #c62828;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main-content ul li a:hover {
+    background-color: #b71c1c;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Form Page Styles */
+form {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form h1 {
+    font-size: 2em;
+    color: #c62828;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="tel"],
+.form-group select {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group .radio-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 250px;
+}
+
+.form-group .radio-group div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.form-group .radio-group label {
+    margin-left: 5px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #c62828;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.form-group button:hover {
+    background-color: #b71c1c;
+}
+
+/* Back Link Styles */
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #c62828;
+    font-weight: bold;
+    text-align: center;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Search Page Styles */
+.search-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.search-container h1 {
+    font-size: 2em;
+    color: #c62828;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-container form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.search-container select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #c62828;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.search-container button:hover {
+    background-color: #b71c1c;
+}
+
+.search-results {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.search-results table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.search-results th, .search-results td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    form {
+        width: 90%;
+    }
+    .search-container {
+        width: 90%;
+    }
+}
+
+.messages {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
